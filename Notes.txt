@@ -1,0 +1,12 @@
+Basketball_Play_Analysis_Proposal - https://docs.google.com/document/d/1B_Ztcp-Yq0hzNOeLDz3-XSn53_wHF8GTZVgajrOf1iU/edit?usp=sharing
+Basketball play diagram (Data) - https://youtube.com/playlist?list=PL9R7sofmhq2PEIBuDkbIgcXEv99KGJc6B&si=WTqDE-X_GiKrnmzA
+Real-Time plays (Data) - https://www.youtube.com/watch?v=KBveBwn506Y&list=PL236o1wW8a_bWzoOZPw_vEgCbOHPuO4VX&index=1
+Download Videos (download only mp4 720p) - https://www.ytultra.com/en/youtube-video-downloader/
+Video Editor - https://clideo.com/
+RoboFlow - Fine-tune model - https://app.roboflow.com/basketball-board/basketball-diagram-digits-and-ba/models/basketball-board/basketball-diagram-digits-and-ba-1-yolo26s-t1?fromVersion=1
+Stop downloading videos on video 18 in the link
+
+
+First feedback - check the GitHub repo or YOLO to follow the objects automatically. YOLO takes the x,y, height, etc. position. Sometimes the ball is held by the player so we need to know when it happens - maybe taking the distance between the player and the ball can help us to know. Try to monitor the position of the ball and players all the time and save it to a file.
+
+Second feedback: stay on the simple video first and go from there. Try to see how we can track the players and the ball and save it for later predictions. How long the ball is at each player; maybe define each spot on the court (corner, wing, top, etc.)
